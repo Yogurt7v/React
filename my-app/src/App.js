@@ -2,8 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 
 export const App = () => {
-	const newDate = new Date().getFullYear();
+	const newDate = new Date().getFullYear(); //в императивном стиле
 	return (
+		//в декларативном
 		<div className="App">
 			<header className="App-header">
 				<img src={logo} className="App-logo" alt="logo" />
