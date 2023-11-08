@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 export const App = () => {
+	const newDate = new Date().getFullYear();
 	return (
 		<div className="App">
 			<header className="App-header">
@@ -17,6 +18,7 @@ export const App = () => {
 				>
 					Learn React
 				</a>
+				<p>{newDate}</p>
 			</header>
 		</div>
 	);
